@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIGISTRATION FORM</title>
+    <STyle>
+        body{
+            background-color:rgb(33, 28, 54)
+        }
+        h2{
+            color: aliceblue;
+            margin: 10vb 0vb 0vb 40% ;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        div#first{
+            margin: 0 0 2vb 35%;
+        }
+        div{
+            padding: 5px;
+            color: aliceblue;
+        }
+        section{
+            margin: 5vb 50vb 5vb 35% ;
+            padding-bottom: 6vb ;
+            border-bottom:1px solid gray;
+        }
+        input.cls1{
+            all: unset;
+            background-color:rgb(4, 4, 64); color: aliceblue;
+            padding: 0px 19vb 0px 0px;
+        }
+        input.cls2{
+            all: unset;
+            background-color:rgb(4, 4, 64); color: aliceblue;
+            padding: 0px 10vb 0px 0px;
+        }
+        textarea{
+            all: unset;
+            background-color:rgb(4, 4, 64); color: aliceblue;
+        }
+        button{
+            all: unset;
+            margin: 0px 50% 5% 41%;
+            padding: 0 10vb 0 10vb;
+            color: rgb(255, 255, 255);
+            background-color: rgb(85, 85, 110);
+        }
+    </STyle>
+</head>
+<body>
+    <form action="">
+    <h2>
+        Registration Form
+    </h2>
+    <div id="first">
+        Please fill this form with the required information 
+    </div>
+<section>
+    <div>
+        Enter your first name: 
+    </div>
+    <div>
+        <input type="text" class="cls1" required> 
+    </div>
+    <div>
+        Enter your last name: 
+    </div>
+    <div>
+        <input type="text" class="cls1" required> 
+    </div>
+    <div>
+        Enter your Email: 
+    </div>   
+    <div>
+        <input type="email" class="cls1" required> 
+    </div>
+    <div>
+        Enter your password: 
+    </div>
+    <div>
+        <input type="password" class="cls1" required>  
+    </div>
+</section>
+<section>
+    <div> <input type="radio" required value="Personal" name="Account"><label for="Personal">Personal Account</label>
+    </div>
+    <div> <input type="radio" required value="business" name="Account" ><label for="business">Business Account</label>
+    </div>
+    <div> <input type="checkbox" required value="Term and Condition"><label
+        for="Term and Condition">I accept the Term and Condition</label>
+    </div>
+</section>
+<section>
+    <div>
+        Upload your profile: 
+    </div>
+    <div>
+        <input type="file" class="cls2" required multiple accept="image/*">
+    </div>
+    <div>
+        Enter your age in years:
+    </div>
+    <div>
+        <input type="number" class="cls1" required>
+    </div>
+    <div>
+            How did you find about us:
+    </div>
+    <div>
+        <select required id="">
+        <option value="">(select one)</option>
+        <option value="">Did my own research</option>
+        <option value="">Friends and Family	</option>
+        <option value="">Internet advertisement</option>
+        <option value="">Others </option>
+    </select>
+</div>
+<div>
+    Provide a bio:
+</div>
+<textarea name="" id="" cols="40" rows="3" required>I like coding in free time...</textarea>
+</section>
+<button>Submit</button>
+</form>
+</body>
+</html>
